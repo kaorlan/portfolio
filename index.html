@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>Cv Aymeric Gens/Portfolio</title>
+        <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+        <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+        <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Moi</a></li>
+                <li><a href="#diplome" onclick="toggleMenu();">Certificats</a></li>
+                <li><a href="#work" onclick="toggleMenu();">Projets</a></li>
+                <li><a href="#comp" onclick="toggleMenu();">Competences</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Bonjour , Je suis<br><span>Gens Aymeric.</span></h2>
+            <h3>Développeur Web Chez openclassrooms</h3>
+            <a href="#about" class="btn">A propos de moi</a>
+        </div>
+    </section> 
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>A propos de moi</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Développeur Web</h3>
+                <p>Jeune développeur, ayant déjà à son actif plusieurs projets (voir <a href="#work"> Projets</a>). J'ai' déjà de bonnes connaissances en HTML/CSS et 
+                    des connaissances en javascript/php et mysql.J'ai d'autres projets en cours que je partagerais avec vous via mon portfolio .
+                    Depuis que j'ai développé mon premier site en flash à 11 ans, j'ai découvert une passion dans le développement web et 
+                    je cherche maintenant à en faire mon métier.
+
+                    Grâce à ma veille technologique, je me tiens au courant chaque jour des nouveautés et je me mets à niveau en conséquences.
+                    Je sais aussi utiliser des outils tels que photoshop, after effect et des logiciels de design 3D .
+                </p>   
+            </div>
+            <div class="contentBx w50">
+                <img src="./images/20210524_120708.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="diplome" id="diplome">
+        <div class="heading white">
+            <img src="./images/icon1.png">
+            <h2>Mes Certificats</h2>
+            <p>Voici mon parcours avec ma formation Openclassrooms</p>
+        </div>
+        <div class="content">
+            <div class="dipBx">
+                <img src="./images/pngegg (1).png">
+                <h2>Certificat Javascript</h2>
+                <p>Obtention du Certificat javascript chez openclassrooms</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="dipBx">
+                <img src="./images/pngegg (1).png">
+                <h2>Certificat Html/Css</h2>
+                <p>Obtention du Certificat html/css chez openclassrooms</p>
+            </div>
+        </div>
+    </section>
+    <section class="travail" id="work">
+        <div class="heading ">
+            <img src="./images/kisspng-web-development-computer-icons-software-developer-developer-5ac4f595312a18.7762964215228573652014 (2).png">
+            <h2>Mes réalisations</h2>
+            <p>Voici quelques exemples de projets:</p>
+        </div>
+        <div class="travails">
+        <h2>projet booki</h2>
+        <div class="content card">
+            <div class="circle" style="--clr:#f40103">
+               <img src="./images/logobooki.png" class="logo">
+            </div>
+            <img src="./images/projet1.png" class="booki1">
+            <div class="contentcard">
+                <h2>Booki</h2>
+                <p>Site de résérvation booki fait en html/css avec le programme de formation openclassrooms.</p>
+                <a href="https://kaorlan.github.io/booki/"> Découvrir</a>
+            </div>
+            <img src="./images/projet1.png" class="hotel">
+        </div>
+        <h2>projet Gadteam</h2>
+        <div class="content card">
+            <div class="circle" style="--clr:#f40103">
+               <h2 class="logo textcolor"> GadTeam</h2>
+            </div>
+            <img src="./images/projet2.png" class="booki1">
+            <div class="contentcard">
+                <h2>Gadteam</h2>
+                <p>Site communautaire ou j'ai regroupé des serveurs ouverts par mes soins.</p>
+                <a href="https://kaorlan.github.io/sitegaming/"> Découvrir</a>
+            </div>
+            <img src="./images/projet2.png" class="hotel moove">
+        </div>
+        <div class="calcu">
+        <h2>Projet Calculatrice Javascript/css</h2>
+        <div class="content card">
+            <div class="circle" style="--clr:#f40103">
+               <h2 class="logo textcolor"> calculatrice</h2>
+            </div>
+            <img src="./images/calculatrice.png" class="booki1">
+            <div class="contentcard">
+                <h2>calculatrice</h2>
+                <p>création d'une calculatrice en javascript et css.</p>
+                <a href="https://kaorlan.github.io/calculatricejs/"> Découvrir</a>
+            </div>
+            <img src="./images/calculatrice.png" class="hotel moove">
+        </div>
+        </div>
+        <h2>Jeux vidéo en html/css</h2>
+        <div class="content card">
+            <div class="circle" style="--clr:#f40103">
+               <h2 class="logo textcolor"> The mine</h2>
+            </div>
+            <img src="./images/ggffffggg.png" class="booki1">
+            <div class="contentcard">
+                <h2>The mine</h2>
+                <p>échappez vous de cette mine codé en html/css ;)</p>
+                <a href="https://kaorlan.github.io/jeuxvideo/"> Découvrir</a>
+            </div>
+            <img src="./images/videogame.png" class="hotel moove">
+        </div>
+        </div>
+    </section>
+    <section class="competences" id="comp">
+        <div class="heading">
+            <img src="./images/kisspng-computer-icons-labor-health-care-employment-suitca-magnifier-5ac1ce1ec95370.5082253315226506548246.png">
+            <h2>Mes Compétences</h2>
+            <p>Voici ce que m'a apporté cette formation et ce qu'elle peut m'apporter :</p>
+        </div>
+        <div class="content">
+            <div class="compBx">
+                <h3>html/css</h3>
+                <p>J'ai pu approfondir des connaissances déjà acquises en autodidacte dans le domaine de l'html/css , en faisant plusieurs réalisations. <br>
+                    J'ai appris l'utilisation de : flex box , grid layout , transition , animation 3D . </p>
+            </div>
+            <div class="compBx">
+                <h3>Javascript</h3>
+                <p>Les bases de javascript m'ont ouvert beaucoup de porte dans mes réalisations comme : menu dynamique , calculatrice , animation et d'autres .<br>
+                    je souhaite réellement approfondir ce sujet à l'heure actuels pour avancer en tant que développeur web</p>
+            </div>
+            <div class="compBx">
+                <h3>Conclusion</h3>
+                <p>Grâce à ma formation j'ai acquis beaucoup de chose : une connaissance sur différent langage informatique comme html/css et javascript mais aussi<br>
+                    un savoir-faire et la découverte de nouveaux outils de développement . Je suis tombé encore plus amoureux du développement et je ne m'arrêterais pas là.<br>
+                    En même temps que mon apprentissage, j'attaquerais plusieurs projets personnels pour augmenter mes connaissances. </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2 class="coord">Mes coordonnés</h2>
+            <p class="coord">Voici les différents moyens de me contacter</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Info Contact</h3>
+                <div class="contactinfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>adresse</h3>
+                            <p>32 impasse Dominique Mathio<br>Lit-et-mixe<br>40170</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Téléphone</h3>
+                            <p>06.70.90.72.62</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>Aymeric40410gens@gmail.com</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright © 2022 Gens Aymeric.All right Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+    </body>
+</html>
